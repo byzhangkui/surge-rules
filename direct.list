@@ -107,3 +107,93 @@ DOMAIN-SUFFIX,gitee.io
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,cloud.tencent.com
 DOMAIN-SUFFIX,tencentcloud.com
+
+# ===== Apple / Mac 常用服务（按用户选择直连） =====
+# 来源：https://support.apple.com/en-us/101555
+# icloud.com 同时覆盖 Private Relay 的 mask 等子域名。
+
+# iCloud 与文档同步
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,gc.apple.com
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,iwork.apple.com
+
+# Apple 账号登录
+DOMAIN-SUFFIX,account.apple.com
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,idmsa.apple.com
+DOMAIN-SUFFIX,gsa.apple.com
+
+# App Store、音乐与 Apple 内容分发
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,cdn-apple.com
+
+# macOS 更新、恢复与内容缓存
+DOMAIN-SUFFIX,configuration.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com
+DOMAIN-SUFFIX,gg.apple.com
+DOMAIN-SUFFIX,gs.apple.com
+DOMAIN-SUFFIX,ig.apple.com
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,oscdn.apple.com
+DOMAIN-SUFFIX,osrecovery.apple.com
+DOMAIN-SUFFIX,skl.apple.com
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,swdist.apple.com
+DOMAIN-SUFFIX,swdownload.apple.com
+DOMAIN-SUFFIX,swscan.apple.com
+DOMAIN-SUFFIX,xp.apple.com
+DOMAIN-SUFFIX,gdmf-ados.apple.com
+DOMAIN-SUFFIX,gsra.apple.com
+DOMAIN-SUFFIX,wkms-public.apple.com
+DOMAIN-SUFFIX,lcdn-registration.apple.com
+DOMAIN-SUFFIX,suconfig.apple.com
+DOMAIN-SUFFIX,xp-cdn.apple.com
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+DOMAIN-SUFFIX,serverstatus.apple.com
+
+# 设备激活、网络检测、时间与推送
+DOMAIN-SUFFIX,albert.apple.com
+DOMAIN-SUFFIX,captive.apple.com
+DOMAIN-SUFFIX,humb.apple.com
+DOMAIN-SUFFIX,static.ips.apple.com
+DOMAIN-SUFFIX,tbsc.apple.com
+DOMAIN-SUFFIX,time.apple.com
+DOMAIN-SUFFIX,time-macos.apple.com
+DOMAIN-SUFFIX,push.apple.com
+
+# 证书与应用验证
+DOMAIN-SUFFIX,certs.apple.com
+DOMAIN-SUFFIX,crl.apple.com
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,ocsp2.apple.com
+DOMAIN-SUFFIX,valid.apple.com
+DOMAIN-SUFFIX,ppq.apple.com
+DOMAIN-SUFFIX,appattest.apple.com
+
+# Siri、Spotlight 与地图
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,ls.apple.com
+
+# Apple 官网、支持与开发下载
+DOMAIN-SUFFIX,www.apple.com
+DOMAIN-SUFFIX,support.apple.com
+DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,devimages-cdn.apple.com
+DOMAIN-SUFFIX,download.developer.apple.com
+DOMAIN-SUFFIX,audiocontentdownload.apple.com
+DOMAIN-SUFFIX,sylvan.apple.com
+
+# Safari 安全浏览与通用链接
+DOMAIN,token.safebrowsing.apple
+DOMAIN,app-site-association.networking.apple
