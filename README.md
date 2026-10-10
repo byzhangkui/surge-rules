@@ -1,6 +1,6 @@
-# Surge 国内常用直连规则
+# Surge 常用直连规则
 
-覆盖通讯办公、购物支付、内容社区、搜索地图、音乐视频、出行生活、开发，以及 ToDesk。
+覆盖通讯办公、购物支付、内容社区、搜索地图、音乐视频、出行生活、开发，以及 ToDesk、iCloud 与 Mac 常用 Apple 服务。
 
 在 Surge 的 `[Rule]` 段中引用，放在可能抢先匹配的宽泛规则和 `FINAL` 之前：
 
@@ -14,3 +14,13 @@ RULE-SET,https://raw.githubusercontent.com/byzhangkui/surge-rules/main/direct.li
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt
 - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
 - https://manual.nssurge.com/rules/ruleset.html
+
+## Apple / Mac 服务
+
+按用户选择将 iCloud、Apple 账号、App Store、系统更新与恢复、推送、证书和应用验证、Siri、Spotlight、地图及常用内容下载设为直连。按服务域名维护，不整体放行 `apple.com`。`icloud.com` 同时覆盖 Private Relay 的 `mask`、`mask-h2`、`mask-api` 子域名。Apple Intelligence 的第三方 Private Cloud Compute 中继未纳入本次范围。
+
+这些是全球 Apple 服务，直连是本清单的路由选择，不表示其服务器一定在国内，也不保证直连更快；尚未在实际 Mac 上验证全部请求链路。
+
+手工验证：更新 Surge 远程规则集后，分别检查 iCloud 文件/照片同步、Apple 账号登录、App Store 下载及软件更新的请求，确认命中本规则集并使用 DIRECT。
+
+官方域名来源：https://support.apple.com/en-us/101555
