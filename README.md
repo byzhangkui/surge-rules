@@ -24,3 +24,9 @@ RULE-SET,https://raw.githubusercontent.com/byzhangkui/surge-rules/main/direct.li
 手工验证：更新 Surge 远程规则集后，分别检查 iCloud 文件/照片同步、Apple 账号登录、App Store 下载及软件更新的请求，确认命中本规则集并使用 DIRECT。
 
 官方域名来源：https://support.apple.com/en-us/101555
+
+## 国内大模型 API
+
+覆盖 DeepSeek、GLM/智谱、通义千问/百炼、豆包/火山方舟、腾讯混元、百度千帆、Kimi、MiniMax、讯飞星火的已核对常用 API 入口。固定主机使用 DOMAIN 精确匹配；百炼北京地域工作空间入口使用限定的 DOMAIN-SUFFIX。混元 OpenAI 兼容入口已被现有 cloud.tencent.com 后缀覆盖。各规则注释附官方来源。
+
+本次没有纳入海外区域入口、第三方转发平台或整个共享云域名。仅验证规则内容与发布结果，未发起带密钥的模型调用；实际调用与 DIRECT 命中需在 Surge 请求列表验证。

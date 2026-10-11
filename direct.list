@@ -200,3 +200,49 @@ DOMAIN-SUFFIX,sylvan.apple.com
 # Safari 安全浏览与通用链接
 DOMAIN,token.safebrowsing.apple
 DOMAIN,app-site-association.networking.apple
+
+# ===== 国内大模型厂商 API =====
+
+# DeepSeek
+# https://api-docs.deepseek.com/
+DOMAIN,api.deepseek.com
+
+# GLM / 智谱（通用和 Coding API 共用主机）
+# https://docs.bigmodel.cn/
+DOMAIN,open.bigmodel.cn
+
+# 通义千问 / 百炼共享入口
+# https://www.alibabacloud.com/help/zh/model-studio/regions/
+DOMAIN,dashscope.aliyuncs.com
+
+# 百炼北京地域工作空间专属入口
+# https://www.alibabacloud.com/help/zh/model-studio/regions/
+DOMAIN-SUFFIX,cn-beijing.maas.aliyuncs.com
+
+# 豆包 / 火山方舟
+# https://docs.volcengine.com/docs/ark/quick-start?lang=en
+DOMAIN,ark.cn-beijing.volces.com
+
+# 腾讯混元原生 API；OpenAI 兼容入口 api.hunyuan.cloud.tencent.com 已由 cloud.tencent.com 覆盖
+# https://main.qcloudimg.com/raw/document/product/pdf/1729_101832_cn.pdf
+DOMAIN,hunyuan.tencentcloudapi.com
+
+# 百度千帆
+# https://cloud.baidu.com/doc/qianfan-api/s/Dmba8k71y
+DOMAIN,qianfan.baidubce.com
+
+# Kimi / 月之暗面
+# https://github.com/MoonshotAI/moonpalace
+DOMAIN,api.moonshot.cn
+
+# MiniMax 当前官方 API 入口
+# https://platform.minimax.cn/docs/api-reference/text-openai-api
+DOMAIN,api.minimax.cn
+
+# 讯飞星火 HTTP API
+# https://www.xfyun.cn/doc/spark/HTTP调用文档.html
+DOMAIN,spark-api-open.xf-yun.com
+
+# 讯飞星火传统调用入口
+# https://www.xfyun.cn/doc/spark/http_url_authentication.html
+DOMAIN,spark-api.xf-yun.com
