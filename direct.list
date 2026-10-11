@@ -66,6 +66,9 @@ DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
 
 # ===== 搜索、地图 =====
+
+# 有道
+DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,bdimg.com
