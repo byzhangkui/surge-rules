@@ -37,6 +37,9 @@ DOMAIN-SUFFIX,yangkeduo.com
 DOMAIN-SUFFIX,pddpic.com
 
 # ===== 内容、社区 =====
+
+# 知识星球
+DOMAIN-SUFFIX,zsxq.com
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,biliapi.com
