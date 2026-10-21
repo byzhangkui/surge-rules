@@ -249,3 +249,6 @@ DOMAIN,spark-api-open.xf-yun.com
 # 讯飞星火传统调用入口
 # https://www.xfyun.cn/doc/spark/http_url_authentication.html
 DOMAIN,spark-api.xf-yun.com
+
+# 硅基流动（含 api.siliconflow.cn）
+DOMAIN-SUFFIX,siliconflow.cn
