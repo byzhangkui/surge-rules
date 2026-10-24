@@ -252,3 +252,14 @@ DOMAIN,spark-api.xf-yun.com
 
 # 硅基流动（含 api.siliconflow.cn）
 DOMAIN-SUFFIX,siliconflow.cn
+
+# Apple 开发资源：App Store Connect、TestFlight、Swift 工具链与 Swift Playground
+# https://developer.apple.com/app-store-connect/
+# https://www.apple.com/legal/internet-services/itunes/testflight/
+# https://www.swift.org/install/macos/
+# https://support.apple.com/en-us/101555
+DOMAIN-SUFFIX,appstoreconnect.apple.com
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,swift.org
+DOMAIN-SUFFIX,playground-assets-cdn.apple.com
+DOMAIN-SUFFIX,playground-cdn.apple.com
