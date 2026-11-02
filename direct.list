@@ -266,3 +266,20 @@ DOMAIN-SUFFIX,playground-cdn.apple.com
 
 # Tushare 金融数据（含 API 子域名）
 DOMAIN-SUFFIX,tushare.pro
+
+# 国内常用邮箱：网易、QQ、阿里、移动、电信、联通、新浪、搜狐
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,yeah.net
+DOMAIN-SUFFIX,163.net
+DOMAIN-SUFFIX,188.com
+DOMAIN-SUFFIX,127.net
+DOMAIN-SUFFIX,foxmail.com
+DOMAIN-SUFFIX,aliyunmail.com
+DOMAIN-SUFFIX,mxhichina.com
+DOMAIN-SUFFIX,139.com
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,wo.cn
+DOMAIN-SUFFIX,sina.com
+DOMAIN-SUFFIX,sina.cn
+DOMAIN-SUFFIX,sohu.com
