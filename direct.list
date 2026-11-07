@@ -317,3 +317,6 @@ DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,obsidian.md
 DOMAIN-SUFFIX,microsoftpersonalcontent.com
+
+# Linksys
+DOMAIN-SUFFIX,linksys.com
