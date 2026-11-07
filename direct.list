@@ -311,3 +311,9 @@ DOMAIN-SUFFIX,cursor.sh
 # Apple 网站及其子域名（按用户选择整域直连）
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
+
+# Microsoft 个人内容、OneNote 与 Obsidian（按用户指定直连）
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,obsidian.md
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
