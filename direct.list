@@ -283,3 +283,27 @@ DOMAIN-SUFFIX,wo.cn
 DOMAIN-SUFFIX,sina.com
 DOMAIN-SUFFIX,sina.cn
 DOMAIN-SUFFIX,sohu.com
+
+# Microsoft 常用服务：官网、登录、Microsoft 365、OneDrive、系统更新与开发工具
+# Cursor：仅按用户指定覆盖 cursor.sh 及其子域名
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoftonline-p.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,1drv.ms
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,vscode.dev
+DOMAIN-SUFFIX,cursor.sh
