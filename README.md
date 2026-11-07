@@ -17,7 +17,7 @@ RULE-SET,https://raw.githubusercontent.com/byzhangkui/surge-rules/main/direct.li
 
 ## Apple / Mac 服务
 
-按用户选择将 iCloud、Apple 账号、App Store、系统更新与恢复、推送、证书和应用验证、Siri、Spotlight、地图及常用内容下载设为直连。按服务域名维护，不整体放行 `apple.com`。`icloud.com` 同时覆盖 Private Relay 的 `mask`、`mask-h2`、`mask-api` 子域名。Apple Intelligence 的第三方 Private Cloud Compute 中继未纳入本次范围。
+按用户选择将 iCloud、Apple 账号、App Store、系统更新与恢复、推送、证书和应用验证、Siri、Spotlight、地图及常用内容下载设为直连。Apple 网站按用户选择通过 `apple.com` 与 `apple.com.cn` 整域直连；其他 Apple 资源按服务域名维护。`icloud.com` 同时覆盖 Private Relay 的 `mask`、`mask-h2`、`mask-api` 子域名。Apple Intelligence 的第三方 Private Cloud Compute 中继未纳入本次范围。
 
 这些是全球 Apple 服务，直连是本清单的路由选择，不表示其服务器一定在国内，也不保证直连更快；尚未在实际 Mac 上验证全部请求链路。
 

@@ -307,3 +307,7 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,cursor.sh
+
+# Apple 网站及其子域名（按用户选择整域直连）
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
